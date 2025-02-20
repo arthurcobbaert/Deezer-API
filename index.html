@@ -9,12 +9,21 @@
   </head>
   <body>
     <header>
-
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Pesquise a musica que deseja" aria-label="Recipient's username" aria-describedby="button-addon2" id="input-pesquisar">
+            <button class="btn btn-outline-secondary" type="button" id="button-pesquisar">Pesquisar</button>
+          </div>
     </header>
     <main class="container">
         <div class="row">
             <div class="col-3">
-
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Trap</a>
+                    <a href="#" class="list-group-item list-group-item-action">Funk</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sertanejo</a>
+                    <a href="#" class="list-group-item list-group-item-action">Eletro</a>
+                    <a class="list-group-item list-group-item-action disabled" >Rock</a>
+                  </div>
             </div>
             <div class="col-9" >
                 <div id="div-musicas" class="row">
